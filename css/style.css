@@ -1,0 +1,344 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+}
+
+/** CSS para el contenedor 1*/
+.contenedor-1{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/fondo3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/**Le damos un fondo y un degradado para la cabecera*/
+.cabecera{
+    background-color:black;
+    background: linear-gradient(180deg,rgba(0,0,0),rgba(0,0,0,0));
+    width: 100%;
+    height: 100px;
+    display: flex;
+    overflow: hidden;
+}
+
+.logo{
+    width: 30%;
+    padding-left: 100px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+
+/**Aumentamos el tamaño del logo*/
+.logo img{
+    width: 42px;
+    height: 42px;
+}
+
+.navegacion{
+    width: 70%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 100px;
+}
+
+.link{
+    color: #fff;
+    padding: 70px 30px;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.link:hover{
+    background-color: #f64b4c;
+    color: #fff;
+}
+
+.banner{
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.banner_texto{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    color: #fff;
+}
+
+.banner_texto h1{
+    font-size: 100px;
+}
+
+.banner_texto p{
+    font-size: 24px;
+    margin: 20px 0 75px 0; 
+}
+
+.banner_texto a{
+    background-color: #f64b4c;
+    padding: 20px 0;
+    width: 50%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+    color: #fff;
+    border-radius: 40px;
+}
+
+/**Para darle el efecto al boton de ordena ya al pasar mouse*/
+.banner_texto a:hover{
+    background-color: #fff;
+    color: #f64b4c;
+}
+
+/*SECCION ACERCA DE NOSOTROS */
+
+.contenedor-2{
+    background-image: url(../img/fondo3.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:#f64b4c;
+}
+
+.contenedor-2_titulo{
+    font-size: 48px;
+}
+
+.contenedor-2_paquete{
+    width: 70%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.paqueteA{
+    background-color: #fff ;
+    width: 70%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    padding: 50px 100px;
+}
+
+.paqueteA h3{
+    font-size: 32px;
+    font-weight: 100;
+}
+
+.paqueteA img{
+    object-fit: cover;
+    width: 50%;
+}
+
+.paqueteA h4{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.paqueteA p{
+    font-size: 16px;
+}
+
+.paqueteA a{
+    background-color: #f64b4c;
+    color: #fff;
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/*FIN SECCION ACERCA DE NOSOTROS */
+
+/*PÁGINA DE PRODUCTOS*/
+.contenedor-3{
+    background-image: url(../img/fondo3.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:#f64b4c;
+}
+
+.contenedor-3_titulo{
+    font-size: 48px;
+}
+
+.contenedor-3_paquete{
+    width: 70%;
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.paquete{
+    background-color: #fff;
+    width: 30%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+    padding: 25px 25px;
+}
+
+.paquete h3{
+    font-size: 32px;
+    font-weight: 100;
+
+}
+
+.paquete img{
+    object-fit: cover;
+    width: 50%;
+
+}
+
+.paquete h4{
+    font-size: 36px;
+    font-weight: 700;
+
+}
+
+.paquete p{
+    font-size: 16px;
+
+}
+
+.paquete a{
+    background-color: #f64b4c;
+    color: #fff;
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/*FIN SECCION DE PRODUCTOS*/
+
+
+/*PÁGINA DE FORMULARIO */
+.contenedor-4{
+    background-color: #f64b4c;
+    width: 100%;
+    height: 89vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #f64b4c;
+    position: relative;
+}
+
+.mapa{
+    width: 100%;
+    height: 88vh;
+}
+
+iframe{
+    width: 100%;
+    height: 88vh;
+}
+
+.formulario{
+    position: absolute;
+    bottom: 30%;
+    background-color: #f6eedf;
+    width: 30%;
+    padding: 20px 20px;
+    border-radius: 30px;
+}
+
+.formulario-titulo{
+    font-size: 25px;
+    margin: 25px auto;
+    text-align: center;
+}
+
+.form{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.item-1, .item-2{
+    width: 95%;
+    height: 45px;
+    margin: 7px auto;
+    outline: none;
+}
+
+.item-3{
+    width: 98%;
+    height: 45px;
+    margin: 7px auto;
+    grid-column: 1/3;
+    outline: none;
+}
+
+.item-4{
+    width: 98%;
+    height: 100px;
+    margin: 7px auto;
+    grid-column: 1/3;
+    outline: none;
+}
+
+.textarea{
+    width: 98%;
+    height: 100px;
+    margin: 7px auto;
+    grid-column: 1/3;
+    outline: none;
+    resize: none;
+}
+
+.submit{
+    width: 30%;
+    height: 45px;
+    margin: 7px auto;
+    grid-column: 1/3;
+}
+/*FIN SECCION FORMULARIO */
